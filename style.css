@@ -1,3 +1,25 @@
 body {
-  background-image: url("assets/bg-5-full.jpg")
+  background-image: url("assets/bg-5-full.jpg");
+}
+
+#text {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  color: yellow;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+#play {
+  width: 150px;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+}
+
+#rules {
+  color: white;
+  position: absolute;
+  left: 42%;
+  top: 30%;
+
 }
