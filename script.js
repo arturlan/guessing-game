@@ -6,7 +6,8 @@ var guessInputInt
 function startGame() {
   var randomNumber = Math.floor((Math.random() * 100) + 1)
   targetNumber = randomNumber
-
+  console.log(targetNumber)
+  
   while (!finished) {
     var guessInput = prompt("Let's play a game 1 to 100 \n\n" +
     "Enter your number")
